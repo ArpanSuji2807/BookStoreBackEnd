@@ -1214,3 +1214,9 @@ info: ::1 - - [12/Aug/2022:07:07:25 +0000] "POST /api/v1/wishList/6214803b052533
 
 info: ::1 - - [12/Aug/2022:07:12:43 +0000] "GET /api/v1/wishList HTTP/1.1" 200 1620 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [12/Aug/2022:17:03:02 +0000] "POST /api/v1/customerDeatils HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:17:04:00 +0000] "POST /api/v1/customerDetails HTTP/1.1" 201 363 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:17:04:22 +0000] "POST /api/v1/customerDetails HTTP/1.1" 201 363 "-" "PostmanRuntime/7.29.2"
+
