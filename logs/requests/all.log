@@ -414,3 +414,651 @@ Error: write EPIPE
     at DerivedLogger.emit (node:events:539:35)
     at DerivedLogger.emit (node:domain:475:12)
     at addChunk (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Aug 10 2022 08:19:32 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1017374},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18358605,"external":20087955,"heapTotal":47210496,"heapUsed":43736480,"rss":80728064},"pid":9104,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:30:25 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1028827},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19019126,"external":22881664,"heapTotal":82599936,"heapUsed":55294576,"rss":116367360},"pid":40256,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:31:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1028886},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19099344,"external":22639589,"heapTotal":81551360,"heapUsed":57057064,"rss":114794496},"pid":10788,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:32:38 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1028959},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19107536,"external":22647809,"heapTotal":81813504,"heapUsed":56980880,"rss":115388416},"pid":20860,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:33:30 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1029012},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19036527,"external":31191512,"heapTotal":82337792,"heapUsed":53553184,"rss":116494336},"pid":20952,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:34:28 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1029070},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19059091,"external":24409250,"heapTotal":84959232,"heapUsed":53779248,"rss":117374976},"pid":33360,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:35:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1029133},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19066742,"external":24471076,"heapTotal":84697088,"heapUsed":54290456,"rss":117145600},"pid":38800,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:38:25 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1029307},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19136783,"external":22696411,"heapTotal":82075648,"heapUsed":56508384,"rss":116092928},"pid":35900,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:39:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1029366},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19136741,"external":22696369,"heapTotal":81551360,"heapUsed":56543536,"rss":115798016},"pid":20100,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:41:15 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1029477},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19128591,"external":22696411,"heapTotal":81551360,"heapUsed":56704232,"rss":115273728},"pid":40952,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:41:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1029513},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18926629,"external":22522723,"heapTotal":81289216,"heapUsed":50407136,"rss":115650560},"pid":21364,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:57:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1030443},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19062840,"external":22797022,"heapTotal":82075648,"heapUsed":55075360,"rss":116154368},"pid":37316,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+info: ::1 - - [10/Aug/2022:06:28:47 +0000] "GET /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:06:31:07 +0000] "POST /api/v1/users/login HTTP/1.1" 200 295 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:06:31:58 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:06:32:23 +0000] "GET /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:06:32:48 +0000] "GET /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:06:34:50 +0000] "GET /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:06:55:35 +0000] "GET /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:06:57:35 +0000] "GET /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:06:57:48 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:06:58:07 +0000] "GET /api/v1/books/6215178d05253301a4fda5c4 HTTP/1.1" 200 391 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:06:58:18 +0000] "GET /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:01:49 +0000] "GET /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:02:51 +0000] "GET /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:09:28 +0000] "GET /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:10:01 +0000] "GET /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 88 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:29:15 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:30:14 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 13:01:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1034290},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18889172,"external":22551428,"heapTotal":81551360,"heapUsed":50039736,"rss":115294208},"pid":26560,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+info: ::1 - - [10/Aug/2022:07:38:48 +0000] "GET /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:39:44 +0000] "GET /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:42:08 +0000] "GET /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:42:29 +0000] "GET /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:43:21 +0000] "GET /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:44:31 +0000] "GET /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:44:34 +0000] "GET /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::6004
+Error: listen EADDRINUSE: address already in use :::6004
+    at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+    at listenInCluster (node:net:1420:12)
+    at Server.listen (node:net:1508:7)
+    at Function.listen (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Wed Aug 10 2022 13:16:03 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":6004,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1035164},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18953543,"external":22541215,"heapTotal":81289216,"heapUsed":49644696,"rss":114946048},"pid":32236,"uid":null,"version":"v16.15.1"},"stack":"Error: listen EADDRINUSE: address already in use :::6004\n    at Server.setupListenHandle [as _listen2] (node:net:1372:16)\n    at listenInCluster (node:net:1420:12)\n    at Server.listen (node:net:1508:7)\n    at Function.listen (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1372,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1420,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1508,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3200
+Error: listen EADDRINUSE: address already in use :::3200
+    at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+    at listenInCluster (node:net:1420:12)
+    at Server.listen (node:net:1508:7)
+    at Function.listen (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Wed Aug 10 2022 13:17:03 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3200,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1035225},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18895258,"external":22541215,"heapTotal":81551360,"heapUsed":49927808,"rss":115187712},"pid":23500,"uid":null,"version":"v16.15.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3200\n    at Server.setupListenHandle [as _listen2] (node:net:1372:16)\n    at listenInCluster (node:net:1420:12)\n    at Server.listen (node:net:1508:7)\n    at Function.listen (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1372,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1420,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1508,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+info: ::1 - - [10/Aug/2022:07:48:03 +0000] "GET /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:48:05 +0000] "GET /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:49:22 +0000] "GET /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:49:51 +0000] "GET /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:50:25 +0000] "GET /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:52:16 +0000] "GET /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:54:43 +0000] "GET /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:55:19 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:07:59:40 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:08:00:56 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:08:01:38 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 391 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:12:05:56 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:12:24:14 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 48 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:12:24:46 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 48 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:12:31:25 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 48 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:13:52:41 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:13:53:18 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:13:55:27 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:14:11:10 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:14:13:15 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:14:14:32 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:14:14:52 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 377 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:14:16:05 +0000] "GET /api/v1/carts HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:14:16:23 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:14:16:42 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1556 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:14:16:52 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 2735 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:14:17:36 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 3914 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:14:20:12 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 4610 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:14:22:18 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 5307 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:14:23:28 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:14:34:57 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:14:35:21 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:14:36:47 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 377 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:14:37:09 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:17:01:45 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 412 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:17:04:18 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:17:04:37 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:17:06:58 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:17:09:16 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:17:12:48 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1359 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:17:14:04 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:02:44:14 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 400 101 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:02:58:26 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:06:39 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:08:34 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:09:55 +0000] "POST /api/v1/carts/621588d505253301a4fda5cf HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:10:14 +0000] "POST /api/v1/carts/6215890d05253301a4fda5d1 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:10:45 +0000] "POST /api/v1/carts/6215895605253301a4fda5d4 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:13:06 +0000] "POST /api/v1/carts/6215895605253301a4fda5d4 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:14:10 +0000] "POST /api/v1/carts/6215895605253301a4fda5d4 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:15:32 +0000] "POST /api/v1/carts/6215895605253301a4fda5d4 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:17:45 +0000] "POST /api/v1/carts/6215895605253301a4fda5d4 HTTP/1.1" 200 1558 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:18:45 +0000] "POST /api/v1/carts/6215895605253301a4fda5d4 HTTP/1.1" 200 1956 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:24:02 +0000] "POST /api/v1/carts/6215895605253301a4fda5d4 HTTP/1.1" 200 2752 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:29:09 +0000] "POST /api/v1/carts/6215895605253301a4fda5d4 HTTP/1.1" 200 2952 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:29:57 +0000] "POST /api/v1/carts/6215895605253301a4fda5d4 HTTP/1.1" 200 379 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:30:35 +0000] "POST /api/v1/carts/6215895605253301a4fda5d4 HTTP/1.1" 200 379 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:31:13 +0000] "POST /api/v1/carts/6215895605253301a4fda5d4 HTTP/1.1" 200 379 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:32:32 +0000] "POST /api/v1/carts/6215893e05253301a4fda5d3 HTTP/1.1" 200 586 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:37:39 +0000] "POST /api/v1/carts/6215893e05253301a4fda5d3 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:38:10 +0000] "POST /api/v1/carts/6215893e05253301a4fda5d3 HTTP/1.1" 200 806 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:40:05 +0000] "POST /api/v1/carts/6215893e05253301a4fda5d3 HTTP/1.1" 200 399 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:40:15 +0000] "POST /api/v1/carts/6215893e05253301a4fda5d3 HTTP/1.1" 200 399 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:41:47 +0000] "POST /api/v1/carts/621588f105253301a4fda5d0 HTTP/1.1" 200 615 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:42:38 +0000] "POST /api/v1/carts/621588f105253301a4fda5d0 HTTP/1.1" 200 831 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:43:14 +0000] "POST /api/v1/carts/621588f105253301a4fda5d0 HTTP/1.1" 200 396 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:43:20 +0000] "POST /api/v1/carts/621588f105253301a4fda5d0 HTTP/1.1" 200 396 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:44:00 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 641 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:48:17 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 424 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:48:24 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:48:54 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 425 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:49:35 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1615 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:51:03 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1371 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:51:07 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1372 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:51:35 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 66 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:52:39 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 66 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:58:39 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 424 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:58:45 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 425 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:59:05 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1615 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:59:26 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1616 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:12:00 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1371 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:12:05 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1372 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:12:16 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1372 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:12:49 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 1615 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:14:13 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 424 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:14:17 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 425 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:14:37 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1615 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:17:29 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1371 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:17:33 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1372 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:17:34 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1372 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:18:02 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:19:22 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 1616 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:24:08 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 424 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:24:12 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:24:34 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 425 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:24:41 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 425 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:25:22 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1615 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:27:27 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1616 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:32:33 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1371 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:32:37 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 2560 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:33:19 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1371 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:04:33:21 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 2560 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:10:55:45 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1371 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:10:55:50 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1372 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:10:57:09 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:10:58:49 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:00:20 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 1615 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:15:22 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 424 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:15:27 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 425 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:16:00 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1615 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:16:00 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1615 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:18:40 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 400 66 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:20:15 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 400 66 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:20:51 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1371 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:21:18 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 1615 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:21:44 +0000] "POST /api/v1/carts/6215888305253301a4fda5cd HTTP/1.1" 200 2086 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:22:22 +0000] "POST /api/v1/carts/6215888305253301a4fda5cd HTTP/1.1" 200 2556 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:26:57 +0000] "POST /api/v1/carts/6215888305253301a4fda5cd HTTP/1.1" 200 415 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:27:21 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1606 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:27:58 +0000] "POST /api/v1/carts/621588af05253301a4fda5ce HTTP/1.1" 200 1808 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:28:03 +0000] "POST /api/v1/carts/621588af05253301a4fda5ce HTTP/1.1" 200 1808 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:28:23 +0000] "POST /api/v1/carts/621588af05253301a4fda5ce HTTP/1.1" 200 1808 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:33:21 +0000] "POST /api/v1/carts/621588af05253301a4fda5ce HTTP/1.1" 200 382 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:33:26 +0000] "POST /api/v1/carts/621588af05253301a4fda5ce HTTP/1.1" 200 382 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:33:45 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1574 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:37:27 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1371 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:37:38 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1372 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:37:38 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1372 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:11:38:02 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 1616 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:12:33:40 +0000] "POST /api/v1/carts/6215898705253301a4fda5d6 HTTP/1.1" 200 1817 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:12:35:08 +0000] "POST /api/v1/carts/6215898705253301a4fda5d6 HTTP/1.1" 200 381 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:12:35:12 +0000] "POST /api/v1/carts/6215898705253301a4fda5d6 HTTP/1.1" 200 381 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:12:35:38 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 626 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:12:40:24 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 424 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:12:41:00 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1616 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:12:44:16 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1371 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:12:44:39 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 1616 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:12:45:10 +0000] "POST /api/v1/carts/621588af05253301a4fda5ce HTTP/1.1" 200 1818 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:12:45:28 +0000] "POST /api/v1/carts/621588af05253301a4fda5ce HTTP/1.1" 200 1818 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:12:46:43 +0000] "POST /api/v1/carts/621588f105253301a4fda5d0 HTTP/1.1" 200 2034 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:12:49:36 +0000] "POST /api/v1/carts/6215895605253301a4fda5d4 HTTP/1.1" 200 2245 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:12:50:28 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 2245 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:12:59:55 +0000] "GET /api/v1/carts HTTP/1.1" 200 2245 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:35:25 +0000] "PUT /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 152 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:36:38 +0000] "PUT /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 152 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:37:25 +0000] "PUT /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 152 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:38:57 +0000] "PUT /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:41:35 +0000] "POST /api/v1/users/login HTTP/1.1" 200 295 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:42:11 +0000] "GET /api/v1/carts HTTP/1.1" 200 2245 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:42:34 +0000] "PUT /api/v1/carts/6215895605253301a4fda5d4 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:43:45 +0000] "PUT /api/v1/carts/6215895605253301a4fda5d4 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:44:10 +0000] "GET /api/v1/carts HTTP/1.1" 200 2034 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:54:15 +0000] "PUT /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 66 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:54:44 +0000] "PUT /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 400 112 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:56:22 +0000] "PUT /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 1791 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:57:18 +0000] "PUT /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 1791 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:57:36 +0000] "PUT /api/v1/carts/621588f105253301a4fda5d0 HTTP/1.1" 200 1575 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:58:19 +0000] "POST /api/v1/carts/621588f105253301a4fda5d0 HTTP/1.1" 200 396 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:58:24 +0000] "POST /api/v1/carts/621588f105253301a4fda5d0 HTTP/1.1" 200 396 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:58:51 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1588 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:13:59:59 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 1832 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:14:00:06 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 1832 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:14:01:13 +0000] "POST /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 1832 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:14:01:22 +0000] "PUT /api/v1/carts/6215178d05253301a4fda5c4 HTTP/1.1" 200 1592 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:14:05:39 +0000] "POST /api/v1/users/SignUp HTTP/1.1" 201 316 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:14:05:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 295 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:14:06:47 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 200 1371 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:14:07:36 +0000] "POST /api/v1/carts/621588f105253301a4fda5d0 HTTP/1.1" 200 1587 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:14:07:38 +0000] "POST /api/v1/carts/621588f105253301a4fda5d0 HTTP/1.1" 200 1588 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:14:08:22 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:14:08:34 +0000] "POST /api/v1/users/login HTTP/1.1" 200 295 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:14:09:00 +0000] "GET /api/v1/carts HTTP/1.1" 200 1588 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:02:41:24 +0000] "POST /api/v1/carts/621588af05253301a4fda5ce HTTP/1.1" 200 1790 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:02:42:01 +0000] "GET /api/v1/carts HTTP/1.1" 200 1790 "-" "PostmanRuntime/7.29.2"
+

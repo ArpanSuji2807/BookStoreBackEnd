@@ -1,0 +1,4 @@
+info: ::1 - - [12/Aug/2022:02:41:24 +0000] "POST /api/v1/carts/621588af05253301a4fda5ce HTTP/1.1" 200 1790 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:02:42:01 +0000] "GET /api/v1/carts HTTP/1.1" 200 1790 "-" "PostmanRuntime/7.29.2"
+

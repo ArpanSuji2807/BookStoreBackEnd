@@ -432,3 +432,583 @@ info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T0
 info: Connected to the database. {"timestamp":"2022-08-10T05:22:08.018Z"}
 info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T05:22:49.029Z"}
 info: Connected to the database. {"timestamp":"2022-08-10T05:22:49.083Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T05:59:19.488Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T05:59:19.510Z"}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:30:25 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1028827},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19007204,"external":22869702,"heapTotal":82337792,"heapUsed":54942040,"rss":115507200},"pid":40256,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","timestamp":"2022-08-10T06:00:25.946Z","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:31:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1028886},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19087422,"external":22627627,"heapTotal":81551360,"heapUsed":56728144,"rss":113836032},"pid":10788,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","timestamp":"2022-08-10T06:01:24.726Z","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:32:37 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1028959},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19095614,"external":22635847,"heapTotal":81813504,"heapUsed":56876216,"rss":114552832},"pid":20860,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","timestamp":"2022-08-10T06:02:38.005Z","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:33:30 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1029012},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19024605,"external":31179550,"heapTotal":82337792,"heapUsed":53205312,"rss":115671040},"pid":20952,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","timestamp":"2022-08-10T06:03:30.875Z","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:34:28 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1029070},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19047169,"external":24397288,"heapTotal":84959232,"heapUsed":53522896,"rss":116350976},"pid":33360,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","timestamp":"2022-08-10T06:04:28.546Z","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:35:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1029133},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19054820,"external":24459114,"heapTotal":84697088,"heapUsed":53922136,"rss":116285440},"pid":38800,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","timestamp":"2022-08-10T06:05:31.917Z","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:38:25 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1029307},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19124861,"external":22684449,"heapTotal":82075648,"heapUsed":56402264,"rss":115245056},"pid":35900,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","timestamp":"2022-08-10T06:08:25.581Z","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:39:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1029366},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19124819,"external":22684407,"heapTotal":81551360,"heapUsed":56249216,"rss":114933760},"pid":20100,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","timestamp":"2022-08-10T06:09:24.660Z","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:41:15 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1029477},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19116669,"external":22684449,"heapTotal":81551360,"heapUsed":56594712,"rss":114438144},"pid":40952,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","timestamp":"2022-08-10T06:11:15.176Z","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:41:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1029512},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18914707,"external":22510761,"heapTotal":81289216,"heapUsed":50295944,"rss":114786304},"pid":21364,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","timestamp":"2022-08-10T06:11:51.120Z","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 11:57:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1030443},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19050918,"external":22785060,"heapTotal":82075648,"heapUsed":54964648,"rss":115318784},"pid":37316,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","timestamp":"2022-08-10T06:27:21.850Z","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T06:27:56.872Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T06:27:56.895Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T06:28:07.887Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T06:28:07.909Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T06:30:46.330Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T06:30:46.358Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T06:32:45.207Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T06:32:45.239Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T06:32:57.439Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T06:32:57.464Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T06:33:54.795Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T06:33:54.820Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T06:55:31.279Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T06:55:31.306Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T06:57:28.045Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T06:57:28.069Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:01:00.406Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:01:00.433Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:01:40.443Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:01:40.466Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:02:15.185Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:02:15.217Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:02:46.072Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:02:46.096Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:03:11.641Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:03:11.664Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:04:08.443Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:04:08.472Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:09:19.586Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:09:19.608Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:09:59.121Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:09:59.153Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:10:59.417Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:10:59.452Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:28:51.000Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:28:51.034Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:29:08.617Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:29:08.637Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:29:56.649Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:29:56.676Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:30:36.624Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:30:36.650Z"}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\Arpan suji\BookStore\Bookstore\src\routes\/index.js:18:10)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 10 2022 13:01:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1034290},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18877250,"external":22539466,"heapTotal":81551360,"heapUsed":49928944,"rss":114544640},"pid":26560,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","timestamp":"2022-08-10T07:31:29.052Z","trace":[{"column":13,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:32:43.375Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:32:43.398Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:33:07.388Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:33:07.414Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:34:54.538Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:34:54.560Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:35:11.525Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:35:11.561Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:37:19.195Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:37:19.231Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:38:09.739Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:38:09.780Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:38:37.403Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:38:37.444Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:39:31.883Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:39:31.935Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:41:49.990Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:41:50.037Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:42:25.329Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:42:25.386Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:42:43.229Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:42:43.266Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:43:18.330Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:43:18.412Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:43:38.814Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:43:38.853Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:43:51.131Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:43:51.235Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:44:27.255Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:44:27.290Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:45:03.460Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:45:03.513Z"}
+info: Server started at http://localhost:6004/api/v1/ {"timestamp":"2022-08-10T07:45:52.306Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:45:52.343Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::6004
+Error: listen EADDRINUSE: address already in use :::6004
+    at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+    at listenInCluster (node:net:1420:12)
+    at Server.listen (node:net:1508:7)
+    at Function.listen (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Wed Aug 10 2022 13:16:02 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":6004,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1035164},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18942139,"external":22529771,"heapTotal":81289216,"heapUsed":49535840,"rss":114073600},"pid":32236,"uid":null,"version":"v16.15.1"},"stack":"Error: listen EADDRINUSE: address already in use :::6004\n    at Server.setupListenHandle [as _listen2] (node:net:1372:16)\n    at listenInCluster (node:net:1420:12)\n    at Server.listen (node:net:1508:7)\n    at Function.listen (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-08-10T07:46:03.005Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1372,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1420,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1508,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+info: Server started at http://localhost:3200/api/v1/ {"timestamp":"2022-08-10T07:46:50.174Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:46:50.245Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3200
+Error: listen EADDRINUSE: address already in use :::3200
+    at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+    at listenInCluster (node:net:1420:12)
+    at Server.listen (node:net:1508:7)
+    at Function.listen (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Wed Aug 10 2022 13:17:03 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3200,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1035225},"process":{"argv":["node","C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\BookStore\\Bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18883854,"external":22529771,"heapTotal":81551360,"heapUsed":49564656,"rss":114388992},"pid":23500,"uid":null,"version":"v16.15.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3200\n    at Server.setupListenHandle [as _listen2] (node:net:1372:16)\n    at listenInCluster (node:net:1420:12)\n    at Server.listen (node:net:1508:7)\n    at Function.listen (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-08-10T07:47:03.365Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1372,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1420,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1508,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T07:47:50.915Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:47:50.937Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T07:49:12.013Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:49:12.056Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T07:49:42.567Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:49:42.591Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T07:50:22.772Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:50:22.794Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T07:50:37.325Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:50:37.347Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T07:51:14.824Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:51:14.846Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T07:52:13.347Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:52:13.377Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T07:53:26.995Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:53:27.020Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T07:53:58.834Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:53:58.858Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T07:54:39.563Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:54:39.590Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T07:58:52.275Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:58:52.309Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T07:59:36.903Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:59:36.931Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T08:00:53.243Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T08:00:53.266Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T08:01:35.292Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T08:01:35.315Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T08:07:22.047Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T08:07:22.071Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T12:01:28.589Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T12:01:28.616Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T12:05:50.295Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T12:05:50.331Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T12:11:53.349Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T12:11:53.371Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T12:24:09.877Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T12:24:09.902Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T12:24:42.562Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T12:24:42.599Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T12:26:02.081Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T12:26:02.107Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T12:31:23.139Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T12:31:23.166Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T13:52:06.355Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T13:52:06.395Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T13:52:31.372Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T13:52:31.393Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T13:53:12.306Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T13:53:12.329Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T13:55:24.607Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T13:55:24.630Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T14:11:07.158Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T14:11:07.209Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T14:13:10.482Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T14:13:10.555Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T14:14:29.423Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T14:14:29.445Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T14:14:49.190Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T14:14:49.217Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T14:22:09.652Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T14:22:09.675Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T14:23:25.981Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T14:23:26.127Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T14:28:15.224Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T14:28:15.243Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T14:32:15.206Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T14:32:15.228Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T14:34:53.763Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T14:34:53.785Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T14:35:18.396Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T14:35:18.418Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T14:35:34.696Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T14:35:34.716Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T17:01:27.520Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T17:01:27.550Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T17:06:16.556Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T17:06:16.642Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T17:09:00.869Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T17:09:00.890Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T17:09:14.124Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T17:09:14.159Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T17:09:35.214Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T17:09:35.279Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-10T17:12:36.980Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T17:12:37.008Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T02:42:34.251Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-08-11T02:43:04.264Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T02:44:47.750Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\Arpan suji\\BookStore\\Bookstore\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-08-11T02:45:17.753Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T02:57:22.753Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T02:57:23.193Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:06:35.495Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:06:35.525Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:08:21.301Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:08:21.353Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:13:00.884Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:13:00.909Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:13:58.507Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:13:58.530Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:15:28.730Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:15:28.758Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:17:41.196Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:17:41.226Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:29:04.098Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:29:04.121Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:37:20.531Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:37:20.553Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:37:32.981Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:37:33.009Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:38:05.306Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:38:05.330Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:42:35.295Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:42:35.318Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:47:21.154Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:47:21.175Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:48:00.690Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:48:00.712Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:48:52.422Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:48:52.445Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:50:44.418Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:50:44.440Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:52:37.005Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:52:37.029Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:57:58.001Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:57:58.022Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T03:58:16.735Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T03:58:16.758Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T04:02:35.055Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T04:02:35.082Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T04:11:20.114Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T04:11:20.136Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T04:11:41.924Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T04:11:41.943Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T04:14:00.717Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T04:14:00.738Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T04:16:41.010Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T04:16:41.032Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T04:17:15.892Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T04:17:15.915Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T04:19:18.270Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T04:19:18.295Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T04:23:56.807Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T04:23:56.829Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T04:24:31.386Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T04:24:31.408Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T04:27:26.834Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T04:27:26.855Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T04:31:52.680Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T04:31:52.711Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T04:32:17.644Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T04:32:17.666Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T04:33:07.697Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T04:33:07.719Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T04:34:56.980Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T04:34:57.007Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T04:35:09.072Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T04:35:09.095Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T10:54:45.292Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T10:54:45.335Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T10:55:09.068Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T10:55:09.090Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T10:57:05.756Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T10:57:05.782Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T10:58:11.193Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T10:58:11.233Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T10:58:44.583Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T10:58:44.611Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T11:00:14.040Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T11:00:14.086Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T11:14:37.500Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T11:14:37.530Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T11:14:45.512Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T11:14:45.540Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T11:18:26.887Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T11:18:26.951Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T11:20:36.026Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T11:20:36.056Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T11:26:39.505Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T11:26:39.529Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T11:33:00.252Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T11:33:00.276Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T11:37:09.478Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T11:37:09.523Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T11:41:08.661Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T11:41:08.702Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T12:40:07.932Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T12:40:07.986Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T12:43:56.026Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T12:43:56.054Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T12:48:02.163Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T12:48:02.187Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T12:48:53.884Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T12:48:53.905Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T12:52:52.819Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T12:52:52.839Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T12:56:43.835Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T12:56:43.857Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T12:58:11.443Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T12:58:11.465Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T12:59:35.137Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T12:59:35.160Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T13:31:09.752Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T13:31:09.784Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T13:32:30.086Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T13:32:30.111Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T13:34:21.871Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T13:34:21.897Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T13:36:35.612Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T13:36:35.633Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T13:37:21.825Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T13:37:21.847Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T13:38:54.579Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T13:38:54.604Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T13:43:40.094Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T13:43:40.133Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T13:52:45.421Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T13:52:45.444Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T13:54:05.943Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T13:54:05.966Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T13:54:41.491Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T13:54:41.513Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T13:56:19.656Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T13:56:19.683Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T13:56:46.574Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T13:56:46.597Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T13:57:13.224Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T13:57:13.244Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 56
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\Arpan suji\BookStore\Bookstore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Arpan suji\BookStore\Bookstore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/SignUp 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-11T14:03:39.893Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-12T02:31:21.421Z"}
+info: Connected to the database. {"timestamp":"2022-08-12T02:31:21.450Z"}
