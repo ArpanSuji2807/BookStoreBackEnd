@@ -48,3 +48,35 @@ export const addCart = async (req, res, next) => {
     })
   }
   };
+
+  export const placeOrder = async (req, res, next) => {
+    try {
+      const data = await cartService.placeOrder(req.body.email);
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'Order is placed'
+      });
+    } catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message:`${error}`
+    })
+  }
+  };
+
+  export const cancelOrder = async (req, res, next) => {
+    try {
+      const data = await cartService.cancelOrder(req.body.email);
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'Order is cancelled'
+      });
+    } catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message:`${error}`
+    })
+  }
+  };

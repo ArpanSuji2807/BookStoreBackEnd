@@ -78,3 +78,23 @@ export const removeBookFromCart = async(_id,userId) =>{
         console.log('No any Cart Available');
     }
 }
+
+export const placeOrder = async(userId) => {
+    const data = await cart.findOneAndUpdate({userId:userId},{isPurchased:true},{new:true})
+    if(data){
+        return data;
+    }
+    else{
+        throw new Error('No any cart found');
+    }
+}
+
+export const cancelOrder = async(userId) => {
+    const data = await cart.findOneAndUpdate({userId:userId},{isPurchased:false},{new:true})
+    if(data){
+        return data;
+    }
+    else{
+        throw new Error('No any cart found');
+    }
+}

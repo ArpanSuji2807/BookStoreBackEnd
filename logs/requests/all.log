@@ -1062,3 +1062,33 @@ info: ::1 - - [12/Aug/2022:02:41:24 +0000] "POST /api/v1/carts/621588af05253301a
 
 info: ::1 - - [12/Aug/2022:02:42:01 +0000] "GET /api/v1/carts HTTP/1.1" 200 1790 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [12/Aug/2022:04:03:57 +0000] "PUT /api/v1/carts/placeOrder HTTP/1.1" 200 1794 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:04:05:04 +0000] "PUT /api/v1/carts/placeOrder HTTP/1.1" 200 1794 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:04:06:20 +0000] "PUT /api/v1/carts/placeOrder HTTP/1.1" 200 1794 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:04:06:40 +0000] "PUT /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:04:06:46 +0000] "POST /api/v1/users/login HTTP/1.1" 200 295 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:04:07:44 +0000] "PUT /api/v1/carts/placeOrder HTTP/1.1" 200 1794 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:04:08:45 +0000] "PUT /api/v1/carts/placeOrder HTTP/1.1" 200 1794 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:04:09:31 +0000] "PUT /api/v1/carts/placeOrder/true HTTP/1.1" 400 152 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:04:11:44 +0000] "PUT /api/v1/carts/placeOrder HTTP/1.1" 200 1794 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:04:12:09 +0000] "PUT /api/v1/carts/placeOrder/true HTTP/1.1" 400 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:04:12:45 +0000] "PUT /api/v1/carts/placeOrder/true HTTP/1.1" 200 1773 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:04:12:55 +0000] "PUT /api/v1/carts/placeOrder/true HTTP/1.1" 200 1773 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:04:13:00 +0000] "PUT /api/v1/carts/placeOrder/true HTTP/1.1" 200 1773 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:04:16:06 +0000] "PUT /api/v1/carts/placeOrder/false HTTP/1.1" 200 1777 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:04:16:16 +0000] "PUT /api/v1/carts/placeOrder/true HTTP/1.1" 200 1773 "-" "PostmanRuntime/7.29.2"
+

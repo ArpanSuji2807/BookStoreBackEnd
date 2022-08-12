@@ -13,4 +13,10 @@ router.get('',userAuth,CartController.getCartItems)
 ///Router to remove book from cart
 router.put('/:_id',userAuth,CartController.removeBookFromCart)
 
+//Router to Place Order
+router.put('/placeOrder/true',userAuth,CartController.placeOrder);
+
+//Router to Cancel Order
+router.put('/placeOrder/false',userAuth,CartController.cancelOrder);
+
 export default router;
